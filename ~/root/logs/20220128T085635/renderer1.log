@@ -1,0 +1,18 @@
+[2022-01-28 08:56:37.692] [renderer1] [error] [Extension Host] (node:27182) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Electron --trace-deprecation ...` to show where the warning was created)
+[2022-01-28 08:56:39.747] [renderer1] [error] Unable to write to User Settings because appworks.materialSources is not a registered configuration.: Error: Unable to write to User Settings because appworks.materialSources is not a registered configuration.
+    at E.toConfigurationEditingError (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:13054)
+    at E.validate (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:15862)
+    at E.doWriteConfiguration (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:9415)
+    at Object.factory (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:9249)
+    at b.consume (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:15641)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:15456
+    at new Promise (<anonymous>)
+    at b.queue (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:15380)
+    at E.writeConfiguration (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:9234)
+    at P.writeConfigurationValue (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:42048)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:27769
+    at Array.map (<anonymous>)
+    at P.updateValue (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:27757)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2022-01-28 08:56:40.520] [renderer1] [error] ENOENT: no such file or directory, stat 'node_modules': Error: ENOENT: no such file or directory, stat 'node_modules'

@@ -1,0 +1,160 @@
+INFO [1/28/2022, 8:58:36 AM]: Extension version: 0.2.898
+INFO [1/28/2022, 8:58:36 AM]: Using configuration {
+  cargoRunner: null,
+  runnableEnv: null,
+  inlayHints: {
+    enable: true,
+    smallerHints: true,
+    chainingHints: true,
+    maxLength: 25,
+    parameterHints: true,
+    typeHints: true,
+    hideNamedConstructorHints: false
+  },
+  server: { path: null, extraEnv: null },
+  trace: { server: 'off', extension: false },
+  debug: {
+    engine: 'auto',
+    sourceFileMap: {
+      '/rustc/<id>': '${env:USERPROFILE}/.rustup/toolchains/<toolchain-id>/lib/rustlib/src/rust'
+    },
+    openDebugPane: false,
+    engineSettings: {}
+  },
+  assist: {
+    exprFillDefault: 'todo',
+    importGranularity: 'crate',
+    importEnforceGranularity: false,
+    importPrefix: 'plain',
+    importGroup: true,
+    allowMergingIntoGlobImports: true
+  },
+  cache: { warmup: true },
+  callInfo: { full: true },
+  cargo: {
+    autoreload: true,
+    allFeatures: false,
+    unsetTest: [ 'core' ],
+    features: [],
+    runBuildScripts: true,
+    useRustcWrapperForBuildScripts: true,
+    noDefaultFeatures: false,
+    target: null,
+    noSysroot: false
+  },
+  checkOnSave: {
+    enable: true,
+    allFeatures: null,
+    allTargets: true,
+    command: 'check',
+    noDefaultFeatures: null,
+    target: null,
+    extraArgs: [],
+    features: null,
+    overrideCommand: null
+  },
+  completion: {
+    addCallArgumentSnippets: true,
+    addCallParenthesis: true,
+    snippets: {
+      'Arc::new': {
+        postfix: 'arc',
+        body: 'Arc::new(${receiver})',
+        requires: 'std::sync::Arc',
+        description: 'Put the expression into an `Arc`',
+        scope: 'expr'
+      },
+      'Rc::new': {
+        postfix: 'rc',
+        body: 'Rc::new(${receiver})',
+        requires: 'std::rc::Rc',
+        description: 'Put the expression into an `Rc`',
+        scope: 'expr'
+      },
+      'Box::pin': {
+        postfix: 'pinbox',
+        body: 'Box::pin(${receiver})',
+        requires: 'std::boxed::Box',
+        description: 'Put the expression into a pinned `Box`',
+        scope: 'expr'
+      },
+      Ok: {
+        postfix: 'ok',
+        body: 'Ok(${receiver})',
+        description: 'Wrap the expression in a `Result::Ok`',
+        scope: 'expr'
+      },
+      Err: {
+        postfix: 'err',
+        body: 'Err(${receiver})',
+        description: 'Wrap the expression in a `Result::Err`',
+        scope: 'expr'
+      },
+      Some: {
+        postfix: 'some',
+        body: 'Some(${receiver})',
+        description: 'Wrap the expression in an `Option::Some`',
+        scope: 'expr'
+      }
+    },
+    postfix: { enable: true },
+    autoimport: { enable: true },
+    autoself: { enable: true }
+  },
+  diagnostics: {
+    enable: true,
+    enableExperimental: true,
+    disabled: [],
+    remapPrefix: {},
+    warningsAsHint: [],
+    warningsAsInfo: []
+  },
+  experimental: { procAttrMacros: true },
+  files: { watcher: 'client', excludeDirs: [] },
+  highlightRelated: {
+    references: true,
+    exitPoints: true,
+    breakPoints: true,
+    yieldPoints: true
+  },
+  highlighting: { strings: true },
+  hover: { documentation: true, linksInHover: true },
+  hoverActions: {
+    debug: true,
+    enable: true,
+    gotoTypeDef: true,
+    implementations: true,
+    references: false,
+    run: true
+  },
+  joinLines: {
+    joinElseIf: true,
+    removeTrailingComma: true,
+    unwrapTrivialBlock: true,
+    joinAssignments: true
+  },
+  lens: {
+    debug: true,
+    enable: true,
+    implementations: true,
+    run: true,
+    methodReferences: false,
+    references: false,
+    enumVariantReferences: false,
+    forceCustomCommands: true
+  },
+  linkedProjects: [],
+  lruCapacity: null,
+  notifications: { cargoTomlNotFound: true },
+  procMacro: { enable: true, server: null, ignored: {} },
+  runnables: { overrideCargo: null, cargoExtraArgs: [] },
+  rustcSource: null,
+  rustfmt: {
+    extraArgs: [],
+    overrideCommand: null,
+    enableRangeFormatting: false
+  },
+  workspace: { symbol: { search: { scope: 'workspace', kind: 'only_types' } } }
+}
+INFO [1/28/2022, 8:58:36 AM]: PersistentState: { serverVersion: '0.2.898' }
+INFO [1/28/2022, 8:58:36 AM]: Using server binary at /Users/alechoedwin/.vscode/extensions/matklad.rust-analyzer-0.2.898/server/rust-analyzer

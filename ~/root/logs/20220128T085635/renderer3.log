@@ -1,0 +1,43 @@
+[2022-01-28 08:57:41.254] [renderer3] [error] [Extension Host] (node:27289) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Electron --trace-deprecation ...` to show where the warning was created)
+[2022-01-28 08:58:11.541] [renderer3] [error] e is not iterable: TypeError: e is not iterable
+    at s (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github/dist/extension.js:2:94950)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github/dist/extension.js:2:97385
+    at u.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:66:1712)
+    at i.deltaExtensions (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:76399)
+    at v.$deltaExtensions (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:21268)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2022-01-28 08:58:12.498] [renderer3] [error] Unable to write to User Settings because appworks.materialSources is not a registered configuration.: Error: Unable to write to User Settings because appworks.materialSources is not a registered configuration.
+    at E.toConfigurationEditingError (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:13054)
+    at E.validate (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:15862)
+    at E.doWriteConfiguration (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:9415)
+    at Object.factory (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:9249)
+    at b.consume (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:15641)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:15456
+    at new Promise (<anonymous>)
+    at b.queue (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:15380)
+    at E.writeConfiguration (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:9234)
+    at P.writeConfigurationValue (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:42048)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:27769
+    at Array.map (<anonymous>)
+    at P.updateValue (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:27757)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2022-01-28 08:58:13.479] [renderer3] [error] ENOENT: no such file or directory, stat 'node_modules': Error: ENOENT: no such file or directory, stat 'node_modules'
+[2022-01-28 08:58:35.843] [renderer3] [error] [Extension Host] (node:27517) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Electron --trace-deprecation ...` to show where the warning was created)
+[2022-01-28 08:58:37.420] [renderer3] [error] Unable to write to User Settings because appworks.materialSources is not a registered configuration.: Error: Unable to write to User Settings because appworks.materialSources is not a registered configuration.
+    at E.toConfigurationEditingError (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:13054)
+    at E.validate (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:15862)
+    at E.doWriteConfiguration (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:9415)
+    at Object.factory (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:9249)
+    at b.consume (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:15641)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:15456
+    at new Promise (<anonymous>)
+    at b.queue (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:15380)
+    at E.writeConfiguration (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:9234)
+    at P.writeConfigurationValue (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:42048)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:27769
+    at Array.map (<anonymous>)
+    at P.updateValue (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1887:27757)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2022-01-28 08:58:38.355] [renderer3] [error] ENOENT: no such file or directory, stat 'node_modules': Error: ENOENT: no such file or directory, stat 'node_modules'

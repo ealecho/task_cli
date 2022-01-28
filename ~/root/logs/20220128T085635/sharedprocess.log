@@ -1,0 +1,18 @@
+[2022-01-28 08:56:40.371] [sharedprocess] [info] Deleted from disk golang.go /Users/alechoedwin/.vscode/extensions/golang.go-0.30.0
+[2022-01-28 08:56:40.451] [sharedprocess] [info] Deleted from disk github.github-vscode-theme /Users/alechoedwin/.vscode/extensions/github.github-vscode-theme-5.1.0
+[2022-01-28 08:56:40.460] [sharedprocess] [info] Deleted from disk rangav.vscode-thunder-client /Users/alechoedwin/.vscode/extensions/rangav.vscode-thunder-client-1.10.0
+[2022-01-28 08:56:40.480] [sharedprocess] [info] Deleted from disk rangav.vscode-thunder-client /Users/alechoedwin/.vscode/extensions/rangav.vscode-thunder-client-1.11.0
+[2022-01-28 08:56:40.712] [sharedprocess] [info] Deleted from disk ms-vscode.vscode-typescript-next /Users/alechoedwin/.vscode/extensions/ms-vscode.vscode-typescript-next-4.6.20220124
+[2022-01-28 08:56:40.713] [sharedprocess] [info] Deleted from disk ms-vscode.vscode-typescript-next /Users/alechoedwin/.vscode/extensions/ms-vscode.vscode-typescript-next-4.6.20220125
+[2022-01-28 08:56:40.713] [sharedprocess] [info] Deleted from disk ms-vscode.vscode-typescript-next /Users/alechoedwin/.vscode/extensions/ms-vscode.vscode-typescript-next-4.6.20220123
+[2022-01-28 08:56:40.713] [sharedprocess] [info] Deleted from disk angular.ng-template /Users/alechoedwin/.vscode/extensions/angular.ng-template-13.1.1
+[2022-01-28 08:56:40.713] [sharedprocess] [info] Deleted from disk ms-vscode.vscode-typescript-next /Users/alechoedwin/.vscode/extensions/ms-vscode.vscode-typescript-next-4.6.20220126
+[2022-01-28 08:56:40.738] [sharedprocess] [info] Deleted from disk chenglou92.rescript-vscode /Users/alechoedwin/.vscode/extensions/chenglou92.rescript-vscode-1.2.0
+[2022-01-28 08:56:40.739] [sharedprocess] [info] Deleted from disk wallabyjs.quokka-vscode /Users/alechoedwin/.vscode/extensions/wallabyjs.quokka-vscode-1.0.440
+[2022-01-28 08:57:41.106] [sharedprocess] [info] Starting worker process with pid 27290 (type: watcherServiceParcelSharedProcess, window: 3).
+[2022-01-28 08:58:29.407] [sharedprocess] [info] Uninstalling extension: coenraads.bracket-pair-colorizer-2
+[2022-01-28 08:58:29.869] [sharedprocess] [info] Detected extension removed from another source coenraads.bracket-pair-colorizer-2
+[2022-01-28 08:58:31.832] [sharedprocess] [info] Successfully uninstalled extension: coenraads.bracket-pair-colorizer-2
+[2022-01-28 08:58:34.986] [sharedprocess] [info] Worker process with pid 27290 terminated normally (type: watcherServiceParcelSharedProcess, window: 3).
+[2022-01-28 08:58:35.568] [sharedprocess] [info] Starting worker process with pid 27516 (type: watcherServiceParcelSharedProcess, window: 3).
+[2022-01-28 09:03:55.735] [sharedprocess] [info] Worker process with pid 27516 terminated normally (type: watcherServiceParcelSharedProcess, window: 3).
